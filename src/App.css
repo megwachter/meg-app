@@ -14,18 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #006554;
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 3;
+  font-family: "Archivo", sans-serif;
 }
 
 .App-link {
-  color: #61dafb;
+  font-size: var(--subhead-font-size-l) !important;
+  line-height: var(--subhead-line-height-l) !important;
+  font-weight: var(--font-primary-bold-weight) !important;
+  font-family: var(--font-primary) !important;
+  letter-spacing: var(--subhead-letter-spacing) !important;
 }
 
 @keyframes App-logo-spin {

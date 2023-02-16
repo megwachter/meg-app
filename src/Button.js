@@ -5,5 +5,5 @@ export default function Button() {
       alert('You clicked me!');
     }
   
-    return <button className="button-navigation" onClick={handleClick}>Click me</button>;
+    return <button className="button-navigation" onClick={handleClick}>Sample CTA</button>;
   }
